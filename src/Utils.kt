@@ -12,6 +12,11 @@ fun readInput(name: String) = File("src", "$name.txt").readLines()
  */
 fun readInputGroups(name: String) = File("src", "$name.txt").readText().split("\n\n")
 
+/***
+ * Reads the entire input file as a single string.
+ */
+fun readInputText(name: String) = File("src", "$name.txt").readText()
+
 /**
  * Converts string to md5 hash.
  */
